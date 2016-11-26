@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>denEast</Name>
+    <Identity>
+      <SourceFilename>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\denEast.FBX</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <OpaqueData>
+      <Data Key="mr displacement use global settings" Type="bool">true</Data>
+      <Data Key="mr displacement view dependent" Type="bool">true</Data>
+      <Data Key="mr displacement method" Type="int">6</Data>
+      <Data Key="mr displacement smoothing on" Type="bool">true</Data>
+      <Data Key="mr displacement edge length" Type="float">2</Data>
+      <Data Key="mr displacement max displace" Type="float">20</Data>
+      <Data Key="mr displacement parametric subdivision level" Type="int">5</Data>
+      <Data Key="MaxHandle" Type="int">15</Data>
+    </OpaqueData>
+    <Transform>2.54 0 0 0 0 1.55530138E-16 -2.54 0 0 2.54 1.55530138E-16 0 -396.841 0 109.1196 1</Transform>
+    <Positions>-157.480316 -3.937008 0 -157.480316 3.937008 0 157.480316 3.937008 0 157.480316 -3.937008 0 -157.480316 -3.937008 137.795273 157.480316 -3.937008 137.795273 157.480316 3.937008 137.795273 -157.480316 3.937008 137.795273 -39.37008 -3.937008 49.2125969 -39.37008 3.937008 49.2125969 39.37008 -3.937008 49.2125969 39.37008 3.937008 49.2125969 39.37008 -3.937008 108.267715 39.37008 3.937008 108.267715 -39.37008 -3.937008 108.267715 -39.37008 3.937008 108.267715</Positions>
+    <Geometry>
+      <Batch>
+        <Indices>2 1 0 5 4 3 8 7 6 11 10 9 14 13 12 17 16 15 20 19 18 23 22 21 26 25 24 29 28 27 30 0 1 31 3 4 32 6 7 33 9 10 13 35 34 34 35 36 35 37 36 36 37 38 37 14 38 38 14 12 34 12 13 16 40 39 39 40 41 40 42 41 41 42 43 42 17 43 43 17 15 39 15 16 44 18 19 45 21 22 46 24 25 47 27 28</Indices>
+        <Vertices>
+          <PositionIndices>0 2 3 5 7 4 3 6 5 1 4 7 8 4 0 11 6 2 9 14 8 15 12 14 13 10 12 11 8 10 1 6 2 0 14 5 12 3 10 13 7 15 1 9 15 13 11 9</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -0.99999994 0 0 -1 0 0 1 0 0 0.99999994 0 0 1 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 1 1 0 0 -1 0 0 0 -1 0 0 -0.99999994 0 0 -1 0 0 -0.99999994 0 0 -1 0 0 1 0 0 0.99999994 0 0 1 0 0 0.99999994 0 0 1 0 1 0 0 0 0 -1 -1 0 0 0 0 1</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">1 0.999990463 0 9.536743E-06 0 1 1 1 2.98023224E-08 0 2.98023224E-08 0.999990463 2.98023224E-08 1 0.999990463 0 2.98023224E-08 0 0 1 0.999990463 0 0 0 0.375 0.642857134 2.98023224E-08 0 2.98023224E-08 1 0.375 0.642857134 0 0 0 1 0.9999964 0.642857134 5.990267E-06 0.214285731 5.990267E-06 0.642857134 0.625 3.57627869E-06 0.375 0.9999964 0.625 0.99999404 5.96046448E-06 0.214285731 0.9999964 0.642857134 0.9999964 0.214285731 0.625 5.96046448E-06 0.375 0.99999404 0.625 0.9999964 1 0 1 9.536743E-06 0.999990463 1 0.999990463 1 0.375 0.214285731 1 0 0.625 0.214285731 1 1 0.625 0.642857134 0.375 0.214285731 1 0 0.625 0.214285731 1 1 0.625 0.642857134 0.9999964 0.214285731 0.375 5.96046448E-06 5.96046448E-06 0.642857134 0.375 3.57627869E-06</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+</XnaContent>

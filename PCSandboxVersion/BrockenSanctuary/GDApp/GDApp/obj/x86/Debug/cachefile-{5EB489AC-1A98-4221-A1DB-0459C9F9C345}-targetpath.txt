@@ -90,3 +90,8 @@ Content\Assets\Audio\horrorscreech.xnb
 Content\Assets\Audio\horror_ambiance.xnb
 Content\Assets\Fonts\menu.xnb
 Content\Assets\Fonts\UI.xnb
+Content\Assets\Textures\Debug\bathfloor.xnb
+Content\Assets\Textures\Debug\bathwall.xnb
+Content\Assets\Textures\Debug\bathceiling.xnb
+Content\Assets\Textures\Debug\oldwp.xnb
+Content\Assets\Textures\Debug\lino.xnb

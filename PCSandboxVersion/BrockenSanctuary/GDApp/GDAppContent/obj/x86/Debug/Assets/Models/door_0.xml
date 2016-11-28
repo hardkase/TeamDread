@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>PORTA</Name>
     <Identity>
-      <SourceFilename>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\door.FBX</SourceFilename>
+      <SourceFilename>E:\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\door.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>
@@ -175,7 +175,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>01 - Default</Name>
       <Identity>
-        <SourceFilename>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\door.FBX</SourceFilename>
+        <SourceFilename>E:\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\door.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

@@ -7,11 +7,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\cylinder_0.xml</Key>
-        <Value>2016-11-26T18:11:32+00:00</Value>
+        <Value>2016-11-26T17:18:48+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -20,11 +20,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\dome_0.xml</Key>
-        <Value>2016-11-26T18:11:34+00:00</Value>
+        <Value>2016-11-26T17:18:50+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -33,11 +33,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\hedra_0.xml</Key>
-        <Value>2016-11-26T18:11:34+00:00</Value>
+        <Value>2016-11-26T17:18:50+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -46,11 +46,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\octahedron_0.xml</Key>
-        <Value>2016-11-26T18:11:34+00:00</Value>
+        <Value>2016-11-26T17:18:50+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -59,11 +59,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\plane_0.xml</Key>
-        <Value>2016-11-26T18:11:34+00:00</Value>
+        <Value>2016-11-26T17:18:50+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -72,11 +72,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\prism_0.xml</Key>
-        <Value>2016-11-26T18:11:34+00:00</Value>
+        <Value>2016-11-26T17:18:50+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -85,11 +85,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\sphere_0.xml</Key>
-        <Value>2016-11-26T18:11:34+00:00</Value>
+        <Value>2016-11-26T17:18:50+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -98,11 +98,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\spindle_0.xml</Key>
-        <Value>2016-11-26T18:11:36+00:00</Value>
+        <Value>2016-11-26T17:18:50+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -111,11 +111,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\torus_0.xml</Key>
-        <Value>2016-11-26T18:11:36+00:00</Value>
+        <Value>2016-11-26T17:18:50+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -124,11 +124,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\torusknot_0.xml</Key>
-        <Value>2016-11-26T18:11:36+00:00</Value>
+        <Value>2016-11-26T17:18:52+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -137,11 +137,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
       <Time>2016-11-04T10:15:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\box_0.xml</Key>
-        <Value>2016-11-26T18:11:36+00:00</Value>
+        <Value>2016-11-26T17:18:52+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -150,11 +150,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\level.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\level.xnb</Output>
       <Time>2016-11-13T21:50:44+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\level_0.xml</Key>
-        <Value>2016-11-26T18:11:36+00:00</Value>
+        <Value>2016-11-26T17:18:52+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -163,11 +163,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cabinet.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cabinet.xnb</Output>
       <Time>2016-11-13T21:18:48+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\cabinet_0.xml</Key>
-        <Value>2016-11-26T18:11:42+00:00</Value>
+        <Value>2016-11-26T17:18:54+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -176,11 +176,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchen and oven.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchen and oven.xnb</Output>
       <Time>2016-11-09T16:15:52+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\kitchen and oven_0.xml</Key>
-        <Value>2016-11-26T18:12:12+00:00</Value>
+        <Value>2016-11-26T17:19:08+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -189,11 +189,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\phone.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\phone.xnb</Output>
       <Time>2016-11-16T19:53:52+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\phone_0.xml</Key>
-        <Value>2016-11-26T18:12:14+00:00</Value>
+        <Value>2016-11-26T17:19:10+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -202,11 +202,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\shelf.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\shelf.xnb</Output>
       <Time>2016-11-09T16:15:52+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\shelf_0.xml</Key>
-        <Value>2016-11-26T18:12:28+00:00</Value>
+        <Value>2016-11-26T17:19:12+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -215,11 +215,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sofa.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sofa.xnb</Output>
       <Time>2016-11-13T20:33:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\sofa_0.xml</Key>
-        <Value>2016-11-26T18:12:28+00:00</Value>
+        <Value>2016-11-26T17:19:14+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -228,11 +228,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\armChair.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\armChair.xnb</Output>
       <Time>2016-11-13T20:35:34+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\armChair_0.xml</Key>
-        <Value>2016-11-26T18:12:28+00:00</Value>
+        <Value>2016-11-26T17:19:14+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -241,11 +241,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bookcase.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bookcase.xnb</Output>
       <Time>2016-11-13T20:59:46+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\bookcase_0.xml</Key>
-        <Value>2016-11-26T18:12:28+00:00</Value>
+        <Value>2016-11-26T17:19:14+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -254,11 +254,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\tv.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\tv.xnb</Output>
       <Time>2016-11-13T21:03:10+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\tv_0.xml</Key>
-        <Value>2016-11-26T18:12:30+00:00</Value>
+        <Value>2016-11-26T17:19:14+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -267,11 +267,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\radio.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\radio.xnb</Output>
       <Time>2016-11-13T21:20:38+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\radio_0.xml</Key>
-        <Value>2016-11-26T18:12:30+00:00</Value>
+        <Value>2016-11-26T17:19:14+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -280,11 +280,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\table.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\table.xnb</Output>
       <Time>2016-11-13T22:05:16+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\table_0.xml</Key>
-        <Value>2016-11-26T18:12:30+00:00</Value>
+        <Value>2016-11-26T17:19:14+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -293,11 +293,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\remote.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\remote.xnb</Output>
       <Time>2016-11-13T22:13:10+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\remote_0.xml</Key>
-        <Value>2016-11-26T18:12:30+00:00</Value>
+        <Value>2016-11-26T17:19:16+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -306,11 +306,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\counter.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\counter.xnb</Output>
       <Time>2016-11-15T10:09:08+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\counter_0.xml</Key>
-        <Value>2016-11-26T18:12:30+00:00</Value>
+        <Value>2016-11-26T17:19:16+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -319,11 +319,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\oven.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\oven.xnb</Output>
       <Time>2016-11-14T19:07:32+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\oven_0.xml</Key>
-        <Value>2016-11-26T18:12:32+00:00</Value>
+        <Value>2016-11-26T17:19:16+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -332,11 +332,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\fridge.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\fridge.xnb</Output>
       <Time>2016-11-14T18:54:26+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\fridge_0.xml</Key>
-        <Value>2016-11-26T18:12:32+00:00</Value>
+        <Value>2016-11-26T17:19:16+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -345,11 +345,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toaster.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toaster.xnb</Output>
       <Time>2016-11-14T19:40:38+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\toaster_0.xml</Key>
-        <Value>2016-11-26T18:12:32+00:00</Value>
+        <Value>2016-11-26T17:19:16+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -358,11 +358,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\key.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\key.xnb</Output>
       <Time>2016-11-14T19:50:44+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\key_0.xml</Key>
-        <Value>2016-11-26T18:12:34+00:00</Value>
+        <Value>2016-11-26T17:19:18+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -371,11 +371,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\mirror.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\mirror.xnb</Output>
       <Time>2016-11-14T19:50:44+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\mirror_0.xml</Key>
-        <Value>2016-11-26T18:12:34+00:00</Value>
+        <Value>2016-11-26T17:19:18+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -384,11 +384,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\tvstand.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\tvstand.xnb</Output>
       <Time>2016-11-15T10:37:40+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\tvstand_0.xml</Key>
-        <Value>2016-11-26T18:12:36+00:00</Value>
+        <Value>2016-11-26T17:19:18+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -397,11 +397,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\microwave.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\microwave.xnb</Output>
       <Time>2016-11-15T12:10:54+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\microwave_0.xml</Key>
-        <Value>2016-11-26T18:12:36+00:00</Value>
+        <Value>2016-11-26T17:19:18+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -410,11 +410,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sink.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sink.xnb</Output>
       <Time>2016-11-16T09:40:12+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\sink_0.xml</Key>
-        <Value>2016-11-26T18:12:36+00:00</Value>
+        <Value>2016-11-26T17:19:20+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -423,11 +423,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toilet.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toilet.xnb</Output>
       <Time>2016-11-16T09:40:12+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\toilet_0.xml</Key>
-        <Value>2016-11-26T18:12:36+00:00</Value>
+        <Value>2016-11-26T17:19:20+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -436,11 +436,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toiletroll.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toiletroll.xnb</Output>
       <Time>2016-11-16T09:40:12+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\toiletroll_0.xml</Key>
-        <Value>2016-11-26T18:12:36+00:00</Value>
+        <Value>2016-11-26T17:19:20+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -449,11 +449,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\towel.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\towel.xnb</Output>
       <Time>2016-11-16T09:40:12+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\towel_0.xml</Key>
-        <Value>2016-11-26T18:12:38+00:00</Value>
+        <Value>2016-11-26T17:19:20+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -462,11 +462,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\clock.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\clock.xnb</Output>
       <Time>2016-11-16T09:41:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\clock_0.xml</Key>
-        <Value>2016-11-26T18:12:56+00:00</Value>
+        <Value>2016-11-26T17:19:26+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -475,11 +475,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\door.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\door.xnb</Output>
       <Time>2016-11-16T09:54:20+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\door_0.xml</Key>
-        <Value>2016-11-26T18:12:56+00:00</Value>
+        <Value>2016-11-26T17:19:26+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -488,11 +488,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kchair.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kchair.xnb</Output>
       <Time>2016-11-16T10:05:42+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\kchair_0.xml</Key>
-        <Value>2016-11-26T18:12:56+00:00</Value>
+        <Value>2016-11-26T17:19:26+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -501,11 +501,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\ktable.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\ktable.xnb</Output>
       <Time>2016-11-16T10:05:42+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\ktable_0.xml</Key>
-        <Value>2016-11-26T18:12:56+00:00</Value>
+        <Value>2016-11-26T17:19:26+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -514,11 +514,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\painting.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\painting.xnb</Output>
       <Time>2016-11-16T10:47:36+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\painting_0.xml</Key>
-        <Value>2016-11-26T18:12:56+00:00</Value>
+        <Value>2016-11-26T17:19:26+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -527,11 +527,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bath.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bath.xnb</Output>
       <Time>2016-11-17T12:26:28+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\bath_0.xml</Key>
-        <Value>2016-11-26T18:12:58+00:00</Value>
+        <Value>2016-11-26T17:19:28+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -540,11 +540,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kettle.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kettle.xnb</Output>
       <Time>2016-11-17T20:57:48+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\kettle_0.xml</Key>
-        <Value>2016-11-26T18:12:58+00:00</Value>
+        <Value>2016-11-26T17:19:28+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -553,11 +553,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\winebottle.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\winebottle.xnb</Output>
       <Time>2016-11-17T20:59:24+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\winebottle_0.xml</Key>
-        <Value>2016-11-26T18:12:58+00:00</Value>
+        <Value>2016-11-26T17:19:28+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -566,11 +566,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bathFloor.xnb</Output>
-      <Time>2016-11-26T18:10:46+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bathFloor.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\bathFloor_0.xml</Key>
-        <Value>2016-11-26T18:12:58+00:00</Value>
+        <Value>2016-11-28T21:45:08+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -579,11 +579,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\denFloor.xnb</Output>
-      <Time>2016-11-26T17:02:54+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\denFloor.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\denFloor_0.xml</Key>
-        <Value>2016-11-26T18:12:58+00:00</Value>
+        <Value>2016-11-28T21:45:08+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -592,11 +592,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hallFloor.xnb</Output>
-      <Time>2016-11-26T17:02:56+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hallFloor.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\hallFloor_0.xml</Key>
-        <Value>2016-11-26T18:12:58+00:00</Value>
+        <Value>2016-11-28T21:45:08+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -605,11 +605,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchFloor.xnb</Output>
-      <Time>2016-11-26T17:02:56+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchFloor.xnb</Output>
+      <Time>2016-11-28T21:44:04+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\kitchFloor_0.xml</Key>
-        <Value>2016-11-26T18:12:58+00:00</Value>
+        <Value>2016-11-28T21:45:10+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -618,11 +618,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bathCeiling.xnb</Output>
-      <Time>2016-11-26T17:03:38+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bathCeiling.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\bathCeiling_0.xml</Key>
-        <Value>2016-11-26T18:12:58+00:00</Value>
+        <Value>2016-11-28T21:45:10+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -631,11 +631,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\denCeiling.xnb</Output>
-      <Time>2016-11-26T17:03:38+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\denCeiling.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\denCeiling_0.xml</Key>
-        <Value>2016-11-26T18:12:58+00:00</Value>
+        <Value>2016-11-28T21:45:10+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -644,11 +644,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hallCeiling.xnb</Output>
-      <Time>2016-11-26T17:03:38+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hallCeiling.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\hallCeiling_0.xml</Key>
-        <Value>2016-11-26T18:13:00+00:00</Value>
+        <Value>2016-11-28T21:45:10+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -657,11 +657,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchCeiling.xnb</Output>
-      <Time>2016-11-26T17:03:38+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchCeiling.xnb</Output>
+      <Time>2016-11-28T21:44:04+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\kitchCeiling_0.xml</Key>
-        <Value>2016-11-26T18:13:00+00:00</Value>
+        <Value>2016-11-28T21:45:10+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -670,11 +670,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bathEast.xnb</Output>
-      <Time>2016-11-26T17:04:02+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bathEast.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\bathEast_0.xml</Key>
-        <Value>2016-11-26T18:13:02+00:00</Value>
+        <Value>2016-11-28T21:45:10+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -683,11 +683,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bathNorth.xnb</Output>
-      <Time>2016-11-26T18:10:56+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bathNorth.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\bathNorth_0.xml</Key>
-        <Value>2016-11-26T18:13:02+00:00</Value>
+        <Value>2016-11-28T21:45:10+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -696,11 +696,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bathSouth.xnb</Output>
-      <Time>2016-11-26T17:04:02+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bathSouth.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\bathSouth_0.xml</Key>
-        <Value>2016-11-26T18:13:02+00:00</Value>
+        <Value>2016-11-28T21:45:10+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -709,11 +709,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bathWest.xnb</Output>
-      <Time>2016-11-26T18:11:04+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bathWest.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\bathWest_0.xml</Key>
-        <Value>2016-11-26T18:13:02+00:00</Value>
+        <Value>2016-11-28T21:45:10+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -722,11 +722,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\denEast.xnb</Output>
-      <Time>2016-11-26T17:04:16+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\denEast.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\denEast_0.xml</Key>
-        <Value>2016-11-26T18:13:02+00:00</Value>
+        <Value>2016-11-28T21:45:10+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -735,11 +735,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\denNorth.xnb</Output>
-      <Time>2016-11-26T17:04:16+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\denNorth.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\denNorth_0.xml</Key>
-        <Value>2016-11-26T18:13:02+00:00</Value>
+        <Value>2016-11-28T21:45:10+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -748,11 +748,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\denSouth.xnb</Output>
-      <Time>2016-11-26T17:04:16+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\denSouth.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\denSouth_0.xml</Key>
-        <Value>2016-11-26T18:13:02+00:00</Value>
+        <Value>2016-11-28T21:45:12+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -761,11 +761,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\denWest.xnb</Output>
-      <Time>2016-11-26T17:04:16+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\denWest.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\denWest_0.xml</Key>
-        <Value>2016-11-26T18:13:02+00:00</Value>
+        <Value>2016-11-28T21:45:12+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -774,11 +774,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hallEast.xnb</Output>
-      <Time>2016-11-26T17:04:26+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hallEast.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\hallEast_0.xml</Key>
-        <Value>2016-11-26T18:13:02+00:00</Value>
+        <Value>2016-11-28T21:45:12+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -787,11 +787,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hallNorth.xnb</Output>
-      <Time>2016-11-26T17:04:26+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hallNorth.xnb</Output>
+      <Time>2016-11-28T21:44:04+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\hallNorth_0.xml</Key>
-        <Value>2016-11-26T18:13:02+00:00</Value>
+        <Value>2016-11-28T21:45:12+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -800,11 +800,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hallSouth.xnb</Output>
-      <Time>2016-11-26T17:04:26+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hallSouth.xnb</Output>
+      <Time>2016-11-28T21:44:04+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\hallSouth_0.xml</Key>
-        <Value>2016-11-26T18:13:04+00:00</Value>
+        <Value>2016-11-28T21:45:12+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -813,11 +813,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hallWest.xnb</Output>
-      <Time>2016-11-26T17:04:26+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hallWest.xnb</Output>
+      <Time>2016-11-28T21:44:04+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\hallWest_0.xml</Key>
-        <Value>2016-11-26T18:13:04+00:00</Value>
+        <Value>2016-11-28T21:45:12+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -826,11 +826,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchEast.xnb</Output>
-      <Time>2016-11-26T17:04:38+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchEast.xnb</Output>
+      <Time>2016-11-28T21:44:04+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\kitchEast_0.xml</Key>
-        <Value>2016-11-26T18:13:04+00:00</Value>
+        <Value>2016-11-28T21:45:12+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -839,11 +839,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchNorth.xnb</Output>
-      <Time>2016-11-26T17:04:38+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchNorth.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\kitchNorth_0.xml</Key>
-        <Value>2016-11-26T18:13:04+00:00</Value>
+        <Value>2016-11-28T21:45:12+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -852,11 +852,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchSouth.xnb</Output>
-      <Time>2016-11-26T17:04:38+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchSouth.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\kitchSouth_0.xml</Key>
-        <Value>2016-11-26T18:13:04+00:00</Value>
+        <Value>2016-11-28T21:45:12+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -865,11 +865,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchWest.xnb</Output>
-      <Time>2016-11-26T17:04:38+00:00</Time>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchWest.xnb</Output>
+      <Time>2016-11-28T21:44:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\kitchWest_0.xml</Key>
-        <Value>2016-11-26T18:13:04+00:00</Value>
+        <Value>2016-11-28T21:45:12+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -878,7 +878,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\ml.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\ml.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
     </Item>
     <Item>
@@ -887,7 +887,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\checkerboard.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\checkerboard.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
     </Item>
     <Item>
@@ -896,7 +896,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\losemenu.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\losemenu.xnb</Output>
       <Time>2016-11-24T11:55:48+00:00</Time>
     </Item>
     <Item>
@@ -905,7 +905,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\winmenu.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\winmenu.xnb</Output>
       <Time>2016-11-24T11:55:48+00:00</Time>
     </Item>
     <Item>
@@ -914,7 +914,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray3.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray3.xnb</Output>
       <Time>2016-11-15T09:26:34+00:00</Time>
     </Item>
     <Item>
@@ -923,7 +923,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray2.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray2.xnb</Output>
       <Time>2016-11-15T09:41:34+00:00</Time>
     </Item>
     <Item>
@@ -932,7 +932,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray1.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray1.xnb</Output>
       <Time>2016-11-15T09:44:12+00:00</Time>
     </Item>
     <Item>
@@ -941,7 +941,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\wood.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\wood.xnb</Output>
       <Time>2016-11-15T09:50:16+00:00</Time>
     </Item>
     <Item>
@@ -950,7 +950,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\obsidian.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\obsidian.xnb</Output>
       <Time>2016-11-15T10:19:26+00:00</Time>
     </Item>
     <Item>
@@ -959,7 +959,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\metal.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\metal.xnb</Output>
       <Time>2016-11-15T10:23:56+00:00</Time>
     </Item>
     <Item>
@@ -968,7 +968,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\material.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\material.xnb</Output>
       <Time>2016-11-15T10:26:06+00:00</Time>
     </Item>
     <Item>
@@ -977,7 +977,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\marble.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\marble.xnb</Output>
       <Time>2016-11-16T09:43:20+00:00</Time>
     </Item>
     <Item>
@@ -986,7 +986,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\painting1.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\painting1.xnb</Output>
       <Time>2016-11-16T10:46:14+00:00</Time>
     </Item>
     <Item>
@@ -995,7 +995,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\painting2.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\painting2.xnb</Output>
       <Time>2016-11-16T10:46:54+00:00</Time>
     </Item>
     <Item>
@@ -1004,7 +1004,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\plastic.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\plastic.xnb</Output>
       <Time>2016-11-16T19:51:02+00:00</Time>
     </Item>
     <Item>
@@ -1013,7 +1013,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\audiomenu.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\audiomenu.xnb</Output>
       <Time>2016-11-24T11:55:50+00:00</Time>
     </Item>
     <Item>
@@ -1022,7 +1022,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\controlsmenu.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\controlsmenu.xnb</Output>
       <Time>2016-11-24T12:00:10+00:00</Time>
     </Item>
     <Item>
@@ -1031,7 +1031,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitmenu.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitmenu.xnb</Output>
       <Time>2016-11-24T11:55:48+00:00</Time>
     </Item>
     <Item>
@@ -1040,7 +1040,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitmenuwithtrans.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitmenuwithtrans.xnb</Output>
       <Time>2016-11-23T18:50:06+00:00</Time>
     </Item>
     <Item>
@@ -1049,7 +1049,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\mainmenu.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\mainmenu.xnb</Output>
       <Time>2016-11-24T11:55:48+00:00</Time>
     </Item>
     <Item>
@@ -1058,7 +1058,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\restartmenu.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\restartmenu.xnb</Output>
       <Time>2016-11-24T11:55:48+00:00</Time>
     </Item>
     <Item>
@@ -1067,7 +1067,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\horrorscreech.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\horrorscreech.xnb</Output>
       <Time>2016-11-18T10:55:44+00:00</Time>
     </Item>
     <Item>
@@ -1076,7 +1076,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\horror_ambiance.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\horror_ambiance.xnb</Output>
       <Time>2016-11-18T10:55:44+00:00</Time>
     </Item>
     <Item>
@@ -1085,7 +1085,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\menu.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\menu.xnb</Output>
       <Time>2016-11-23T19:04:12+00:00</Time>
     </Item>
     <Item>
@@ -1094,7 +1094,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\UI.xnb</Output>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\UI.xnb</Output>
       <Time>2016-11-23T19:04:12+00:00</Time>
     </Item>
     <Item>
@@ -1403,168 +1403,213 @@
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\bathFloor_0.xml</Output>
-      <Time>2016-11-26T18:10:46+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\denFloor.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\denFloor_0.xml</Output>
-      <Time>2016-11-26T17:02:54+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\hallFloor.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\hallFloor_0.xml</Output>
-      <Time>2016-11-26T17:02:56+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\kitchFloor.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\kitchFloor_0.xml</Output>
-      <Time>2016-11-26T17:02:56+00:00</Time>
+      <Time>2016-11-28T21:44:04+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\bathCeiling.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\bathCeiling_0.xml</Output>
-      <Time>2016-11-26T17:03:38+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\denCeiling.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\denCeiling_0.xml</Output>
-      <Time>2016-11-26T17:03:38+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\hallCeiling.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\hallCeiling_0.xml</Output>
-      <Time>2016-11-26T17:03:38+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\kitchCeiling.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\kitchCeiling_0.xml</Output>
-      <Time>2016-11-26T17:03:38+00:00</Time>
+      <Time>2016-11-28T21:44:04+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\bathEast.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\bathEast_0.xml</Output>
-      <Time>2016-11-26T17:04:02+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\bathNorth.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\bathNorth_0.xml</Output>
-      <Time>2016-11-26T18:10:56+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\bathSouth.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\bathSouth_0.xml</Output>
-      <Time>2016-11-26T17:04:02+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\bathWest.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\bathWest_0.xml</Output>
-      <Time>2016-11-26T18:11:04+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\denEast.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\denEast_0.xml</Output>
-      <Time>2016-11-26T17:04:16+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\denNorth.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\denNorth_0.xml</Output>
-      <Time>2016-11-26T17:04:16+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\denSouth.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\denSouth_0.xml</Output>
-      <Time>2016-11-26T17:04:16+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\denWest.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\denWest_0.xml</Output>
-      <Time>2016-11-26T17:04:16+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\hallEast.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\hallEast_0.xml</Output>
-      <Time>2016-11-26T17:04:26+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\hallNorth.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\hallNorth_0.xml</Output>
-      <Time>2016-11-26T17:04:26+00:00</Time>
+      <Time>2016-11-28T21:44:04+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\hallSouth.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\hallSouth_0.xml</Output>
-      <Time>2016-11-26T17:04:26+00:00</Time>
+      <Time>2016-11-28T21:44:04+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\hallWest.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\hallWest_0.xml</Output>
-      <Time>2016-11-26T17:04:26+00:00</Time>
+      <Time>2016-11-28T21:44:04+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\kitchEast.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\kitchEast_0.xml</Output>
-      <Time>2016-11-26T17:04:38+00:00</Time>
+      <Time>2016-11-28T21:44:04+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\kitchNorth.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\kitchNorth_0.xml</Output>
-      <Time>2016-11-26T17:04:38+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\kitchSouth.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\kitchSouth_0.xml</Output>
-      <Time>2016-11-26T17:04:38+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\kitchWest.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\kitchWest_0.xml</Output>
-      <Time>2016-11-26T17:04:38+00:00</Time>
+      <Time>2016-11-28T21:44:06+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\bathfloor.jpg</Source>
+      <Name>Assets\Textures\Debug\bathfloor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\bathfloor.xnb</Output>
+      <Time>2016-11-26T21:03:14+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\bathwall.jpg</Source>
+      <Name>Assets\Textures\Debug\bathwall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\bathwall.xnb</Output>
+      <Time>2016-11-26T21:10:42+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\bathceiling.jpg</Source>
+      <Name>Assets\Textures\Debug\bathceiling</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\bathceiling.xnb</Output>
+      <Time>2016-11-26T21:33:04+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\oldwp.jpg</Source>
+      <Name>Assets\Textures\Debug\oldwp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\oldwp.xnb</Output>
+      <Time>2016-11-28T22:39:32+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\lino.jpg</Source>
+      <Name>Assets\Textures\Debug\lino</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\lino.xnb</Output>
+      <Time>2016-11-28T22:43:08+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -1573,10 +1618,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDAppContent\</RootDirectory>
-      <LoggerRootDirectory>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\</LoggerRootDirectory>
-      <IntermediateDirectory>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDAppContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>E:\BrockenSanctuary\GDApp\GDAppContent\</RootDirectory>
+      <LoggerRootDirectory>E:\BrockenSanctuary\GDApp\GDApp\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\BrockenSanctuary\GDApp\GDAppContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

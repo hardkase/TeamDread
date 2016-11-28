@@ -388,12 +388,15 @@ private PhysicsManager physicsManager;
             camera = new Camera3D("Static", ActorType.Camera, transform,
                 ProjectionParameters.StandardMediumSixteenNine,
                 new Viewport(0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight));
-            camera.AttachController(new CollidableFirstPersonController(
+            /*string id,
+            ControllerType controllerType, Keys[] moveKeys,
+            float moveSpeed, float strafeSpeed, float rotationSpeed)
+            : base(id, controllerType, moveKeys, moveSpeed, strafeSpeed, rotationSpeed*/
+            camera.AttachController(new FirstPersonController(
                 camera + " controller",
-                ControllerType.FirstPersonCollidable,
-                AppData.CameraMoveKeys, AppData.CollidableCameraMoveSpeed / 4f,
-                AppData.CollidableCameraStrafeSpeed/3f, AppData.CollidableCameraRotationSpeed,
-                0.72f, 4.5f, 1, 1, 1, Vector3.Zero, camera));
+                ControllerType.FirstPerson,
+                AppData.CameraMoveKeys, AppData.CameraMoveSpeed,
+                AppData.CameraStrafeSpeed, AppData.CameraRotationSpeed));
             camera.StatusType = StatusType.NotUpdated | StatusType.Drawn;
 
             this.cameraManager.Add(cameraLayout, camera);
@@ -418,39 +421,60 @@ private PhysicsManager physicsManager;
             this.modelDictionary.Add("bathFloor", Content.Load<Model>("Assets/Models/bathFloor"));
             this.modelDictionary.Add("bathNorth", Content.Load<Model>("Assets/Models/bathNorth"));
             this.modelDictionary.Add("bathWest", Content.Load<Model>("Assets/Models/bathWest"));
+            this.modelDictionary.Add("bathSouth", Content.Load<Model>("Assets/Models/bathSouth"));
+            this.modelDictionary.Add("bathEast", Content.Load<Model>("Assets/Models/bathEast"));
+            this.modelDictionary.Add("bathCeiling", Content.Load<Model>("Assets/Models/bathCeiling"));
+            this.modelDictionary.Add("hallCeiling", Content.Load<Model>("Assets/Models/hallCeiling"));
+            this.modelDictionary.Add("hallFloor", Content.Load<Model>("Assets/Models/hallFloor"));
+            this.modelDictionary.Add("hallEast", Content.Load<Model>("Assets/Models/hallEast"));
+            this.modelDictionary.Add("hallSouth", Content.Load<Model>("Assets/Models/hallSouth"));
+            this.modelDictionary.Add("hallWest", Content.Load<Model>("Assets/Models/hallWest"));
+            this.modelDictionary.Add("hallNorth", Content.Load<Model>("Assets/Models/hallNorth"));
+            this.modelDictionary.Add("denFloor", Content.Load<Model>("Assets/Models/denFloor"));
+            this.modelDictionary.Add("denCeiling", Content.Load<Model>("Assets/Models/denCeiling"));
+            this.modelDictionary.Add("denEast", Content.Load<Model>("Assets/Models/denEast"));
+            this.modelDictionary.Add("denSouth", Content.Load<Model>("Assets/Models/denSouth"));
+            this.modelDictionary.Add("denWest", Content.Load<Model>("Assets/Models/denWest"));
+            this.modelDictionary.Add("denNorth", Content.Load<Model>("Assets/Models/denNorth"));
+            this.modelDictionary.Add("kitchFloor", Content.Load<Model>("Assets/Models/kitchFloor"));
+            this.modelDictionary.Add("kitchCeiling", Content.Load<Model>("Assets/Models/kitchCeiling"));
+            this.modelDictionary.Add("kitchEast", Content.Load<Model>("Assets/Models/kitchEast"));
+            this.modelDictionary.Add("kitchSouth", Content.Load<Model>("Assets/Models/kitchSouth"));
+            this.modelDictionary.Add("kitchWest", Content.Load<Model>("Assets/Models/kitchWest"));
+            this.modelDictionary.Add("kitchNorth", Content.Load<Model>("Assets/Models/kitchNorth"));
             //sitting room
-           /* this.modelDictionary.Add("sofa", Content.Load<Model>("Assets/Models/sofa"));
-            this.modelDictionary.Add("armChair", Content.Load<Model>("Assets/Models/armChair"));
-            this.modelDictionary.Add("tv", Content.Load<Model>("Assets/Models/tv"));
-            this.modelDictionary.Add("tvstand", Content.Load<Model>("Assets/Models/tvstand"));
-            this.modelDictionary.Add("bookcase", Content.Load<Model>("Assets/Models/bookcase"));
-            this.modelDictionary.Add("cabinet", Content.Load<Model>("Assets/Models/cabinet"));
-            this.modelDictionary.Add("radio", Content.Load<Model>("Assets/Models/radio"));
-            this.modelDictionary.Add("table", Content.Load<Model>("Assets/Models/table"));
-            this.modelDictionary.Add("remote", Content.Load<Model>("Assets/Models/remote"));
-            this.modelDictionary.Add("key", Content.Load<Model>("Assets/Models/key"));
-            this.modelDictionary.Add("winebottle", Content.Load<Model>("Assets/Models/winebottle"));
-            //kitchen
-            this.modelDictionary.Add("counter", Content.Load<Model>("Assets/Models/counter"));
-            this.modelDictionary.Add("fridge", Content.Load<Model>("Assets/Models/fridge"));
-            this.modelDictionary.Add("oven", Content.Load<Model>("Assets/Models/oven"));
-            this.modelDictionary.Add("toaster", Content.Load<Model>("Assets/Models/toaster"));
-            this.modelDictionary.Add("microwave", Content.Load<Model>("Assets/Models/microwave"));
-            this.modelDictionary.Add("ktable", Content.Load<Model>("Assets/Models/ktable"));
-            this.modelDictionary.Add("kchair", Content.Load<Model>("Assets/Models/kchair"));
-            this.modelDictionary.Add("kettle", Content.Load<Model>("Assets/Models/kettle"));
-            //Bathroom
-            this.modelDictionary.Add("mirror", Content.Load<Model>("Assets/Models/mirror"));
-            this.modelDictionary.Add("toilet", Content.Load<Model>("Assets/Models/toilet"));
-            this.modelDictionary.Add("sink", Content.Load<Model>("Assets/Models/sink"));
-            this.modelDictionary.Add("toiletroll", Content.Load<Model>("Assets/Models/toiletroll"));
-            this.modelDictionary.Add("towel", Content.Load<Model>("Assets/Models/towel"));
-            this.modelDictionary.Add("bath", Content.Load<Model>("Assets/Models/bath"));
-            //Hallway
-            this.modelDictionary.Add("clock", Content.Load<Model>("Assets/Models/clock"));
-            this.modelDictionary.Add("door", Content.Load<Model>("Assets/Models/door"));
-            this.modelDictionary.Add("painting", Content.Load<Model>("Assets/Models/painting"));
-            this.modelDictionary.Add("phone", Content.Load<Model>("Assets/Models/phone"));*/
+            /* this.modelDictionary.Add("sofa", Content.Load<Model>("Assets/Models/sofa"));
+             this.modelDictionary.Add("armChair", Content.Load<Model>("Assets/Models/armChair"));
+             this.modelDictionary.Add("tv", Content.Load<Model>("Assets/Models/tv"));
+             this.modelDictionary.Add("tvstand", Content.Load<Model>("Assets/Models/tvstand"));
+             this.modelDictionary.Add("bookcase", Content.Load<Model>("Assets/Models/bookcase"));
+             this.modelDictionary.Add("cabinet", Content.Load<Model>("Assets/Models/cabinet"));
+             this.modelDictionary.Add("radio", Content.Load<Model>("Assets/Models/radio"));
+             this.modelDictionary.Add("table", Content.Load<Model>("Assets/Models/table"));
+             this.modelDictionary.Add("remote", Content.Load<Model>("Assets/Models/remote"));
+             this.modelDictionary.Add("key", Content.Load<Model>("Assets/Models/key"));
+             this.modelDictionary.Add("winebottle", Content.Load<Model>("Assets/Models/winebottle"));
+             //kitchen
+             this.modelDictionary.Add("counter", Content.Load<Model>("Assets/Models/counter"));
+             this.modelDictionary.Add("fridge", Content.Load<Model>("Assets/Models/fridge"));
+             this.modelDictionary.Add("oven", Content.Load<Model>("Assets/Models/oven"));
+             this.modelDictionary.Add("toaster", Content.Load<Model>("Assets/Models/toaster"));
+             this.modelDictionary.Add("microwave", Content.Load<Model>("Assets/Models/microwave"));
+             this.modelDictionary.Add("ktable", Content.Load<Model>("Assets/Models/ktable"));
+             this.modelDictionary.Add("kchair", Content.Load<Model>("Assets/Models/kchair"));
+             this.modelDictionary.Add("kettle", Content.Load<Model>("Assets/Models/kettle"));
+             //Bathroom
+             this.modelDictionary.Add("mirror", Content.Load<Model>("Assets/Models/mirror"));
+             this.modelDictionary.Add("toilet", Content.Load<Model>("Assets/Models/toilet"));
+             this.modelDictionary.Add("sink", Content.Load<Model>("Assets/Models/sink"));
+             this.modelDictionary.Add("toiletroll", Content.Load<Model>("Assets/Models/toiletroll"));
+             this.modelDictionary.Add("towel", Content.Load<Model>("Assets/Models/towel"));
+             this.modelDictionary.Add("bath", Content.Load<Model>("Assets/Models/bath"));
+             //Hallway
+             this.modelDictionary.Add("clock", Content.Load<Model>("Assets/Models/clock"));
+             this.modelDictionary.Add("door", Content.Load<Model>("Assets/Models/door"));
+             this.modelDictionary.Add("painting", Content.Load<Model>("Assets/Models/painting"));
+             this.modelDictionary.Add("phone", Content.Load<Model>("Assets/Models/phone"));*/
             //Add more models...
         }
         private void LoadTextures()
@@ -469,6 +493,11 @@ private PhysicsManager physicsManager;
             this.textureDictionary.Add("p1", Content.Load<Texture2D>("Assets/Textures/Debug/painting1"));
             this.textureDictionary.Add("p2", Content.Load<Texture2D>("Assets/Textures/Debug/painting2"));
             this.textureDictionary.Add("plastic", Content.Load<Texture2D>("Assets/Textures/Debug/plastic"));
+            this.textureDictionary.Add("bathfloor", Content.Load <Texture2D>("Assets/Textures/Debug/bathfloor"));
+            this.textureDictionary.Add("bathwall", Content.Load<Texture2D>("Assets/Textures/Debug/bathwall"));
+            this.textureDictionary.Add("bathceiling", Content.Load<Texture2D>("Assets/Textures/Debug/bathceiling"));
+            this.textureDictionary.Add("oldwp", Content.Load<Texture2D>("Assets/Textures/Debug/oldwp"));
+            this.textureDictionary.Add("lino", Content.Load<Texture2D>("Assets/Textures/Debug/lino"));
             #endregion
 
             //menu
@@ -653,13 +682,22 @@ private PhysicsManager physicsManager;
             collidableLevel.Enable(true, 1);
             this.objectManager.Add(collidableLevel);
             #endregion*/
+            #region LEVEL MODELS
+            #region level-Bathroom
             #region bathFloor
             CollidableObject collidableBathFloor = null;
             Transform3D transform3DBathFloor = null;
-            transform3DBathFloor = new GDLibrary.Transform3D(new Vector3(0, 0, 0), Vector3.Zero,
-                Vector3.Zero, Vector3.UnitX * 200, Vector3.UnitY);
+            /*Transform3D Constructor - (Vector3 translation, 
+             * Vector3 rotation, Vector3 scale, Vector3 look, Vector3 up)*/
+            transform3DBathFloor = new Transform3D(new Vector3(0, 0, 0), new Vector3(0,0,0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            /*TriangleMeshObject constr string id, ActorType actorType, Transform3D transform,
+            BasicEffect effect, Color color, float alpha, Texture2D texture, Model model, 
+            MaterialProperties materialProperties
+            CollidableObject: string id, ActorType actorType, Transform3D transform, BasicEffect effect, 
+            Color color, float alpha, Texture2D texture, Model model*/
             collidableBathFloor = new TriangleMeshObject("bathFloor", ActorType.CollidableGround,
-                transform3DBathFloor, this.texturedModelEffect, Color.White, 1, this.textureDictionary["gray1"],
+                transform3DBathFloor, this.texturedModelEffect, Color.White, 1, this.textureDictionary["bathfloor"],
                 this.modelDictionary["bathFloor"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             collidableBathFloor.Enable(true, 1);
             this.objectManager.Add(collidableBathFloor);
@@ -667,10 +705,10 @@ private PhysicsManager physicsManager;
             #region bathNorth
             CollidableObject collidableBathNorth = null;
             Transform3D transform3DBathNorth = null;
-            transform3DBathNorth = new GDLibrary.Transform3D(new Vector3(0,0,0), Vector3.Zero, 
-                Vector3.Zero, Vector3.UnitX * 200, Vector3.UnitY);
+            transform3DBathNorth = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                new Vector3(1, 1, 1), Vector3.UnitX, Vector3.UnitY);
             collidableBathNorth = new TriangleMeshObject("bathNorth", ActorType.CollidableGround,
-                transform3DBathNorth, this.texturedModelEffect, Color.White, 1, this.textureDictionary["gray1"],
+                transform3DBathNorth, this.texturedModelEffect, Color.White, 1, this.textureDictionary["bathwall"],
                 this.modelDictionary["bathNorth"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             collidableBathNorth.Enable(true, 1);
             this.objectManager.Add(collidableBathNorth);
@@ -678,15 +716,255 @@ private PhysicsManager physicsManager;
             #region bathWest
             CollidableObject collidableBathWest = null;
             Transform3D transform3DBathWest = null;
-            transform3DBathWest = new GDLibrary.Transform3D(new Vector3(0, 0, 0), Vector3.Zero,
-                Vector3.Zero, Vector3.UnitX * 200, Vector3.UnitY);
+            transform3DBathWest = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                new Vector3(1, 1, 1), Vector3.UnitX, Vector3.UnitY);
             collidableBathWest = new TriangleMeshObject("bathWest", ActorType.CollidableGround,
-                transform3DBathWest, this.texturedModelEffect, Color.White, 1, this.textureDictionary["gray1"],
+                transform3DBathWest, this.texturedModelEffect, Color.White, 1, this.textureDictionary["bathwall"],
                 this.modelDictionary["bathWest"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             collidableBathWest.Enable(true, 1);
             this.objectManager.Add(collidableBathWest);
             #endregion
-            /*#region Sitting room
+            #region bathSouth
+            CollidableObject collidableBathSouth = null;
+            Transform3D transform3DBathSouth = null;
+            transform3DBathSouth = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                new Vector3(1, 1, 1), Vector3.UnitX, Vector3.UnitY);
+            collidableBathSouth = new TriangleMeshObject("bathSouth", ActorType.CollidableGround,
+                transform3DBathSouth, this.texturedModelEffect, Color.White, 1, this.textureDictionary["bathwall"],
+                this.modelDictionary["bathSouth"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableBathSouth.Enable(true, 1);
+            this.objectManager.Add(collidableBathSouth);
+            #endregion
+            #region bathEast
+            CollidableObject collidableBathEast = null;
+            Transform3D transform3DBathEast = null;
+            transform3DBathEast = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                new Vector3(1, 1, 1), Vector3.UnitX, Vector3.UnitY);
+            collidableBathEast = new TriangleMeshObject("bathEast", ActorType.CollidableGround,
+                transform3DBathEast, this.texturedModelEffect, Color.White, 1, this.textureDictionary["bathwall"],
+                this.modelDictionary["bathEast"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableBathEast.Enable(true, 1);
+            this.objectManager.Add(collidableBathEast);
+            #endregion
+            #region bathCeiling
+            CollidableObject collidableBathCeiling = null;
+            Transform3D transform3DBathCeiling = null;
+            transform3DBathCeiling = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableBathCeiling = new TriangleMeshObject("bathCeiling", ActorType.CollidableGround,
+                transform3DBathCeiling, this.texturedModelEffect, Color.White, 1, this.textureDictionary["bathceiling"],
+                this.modelDictionary["bathCeiling"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableBathCeiling.Enable(true, 1);
+            this.objectManager.Add(collidableBathCeiling);
+            #endregion
+            #endregion
+            #region level-hall
+            #region hallCeiling
+            CollidableObject collidableHallCeiling = null;
+            Transform3D transform3DHallCeiling = null;
+            transform3DHallCeiling = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableHallCeiling = new TriangleMeshObject("hallCeiling", ActorType.CollidableGround,
+                transform3DHallCeiling, this.texturedModelEffect, Color.White, 1, this.textureDictionary["bathceiling"],
+                this.modelDictionary["hallCeiling"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableHallCeiling.Enable(true, 1);
+            this.objectManager.Add(collidableHallCeiling);
+            #endregion
+            #region HallFloor
+            CollidableObject collidableHallFloor = null;
+            Transform3D transform3DHallFloor = null;
+            transform3DHallFloor = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableHallFloor = new TriangleMeshObject("hallFloor", ActorType.CollidableGround,
+                transform3DHallFloor, this.texturedModelEffect, Color.White, 1, this.textureDictionary["bathceiling"],
+                this.modelDictionary["hallFloor"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableHallFloor.Enable(true, 1);
+            this.objectManager.Add(collidableHallFloor);
+            #endregion
+            #region HallEast
+            CollidableObject collidableHallEast = null;
+            Transform3D transform3DHallEast = null;
+            transform3DHallEast = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableHallEast = new TriangleMeshObject("hallEast", ActorType.CollidableGround,
+                transform3DHallEast, this.texturedModelEffect, Color.White, 1, this.textureDictionary["oldwp"],
+                this.modelDictionary["hallEast"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableHallEast.Enable(true, 1);
+            this.objectManager.Add(collidableHallEast);
+            #endregion
+            #region HallSouth
+            CollidableObject collidableHallSouth = null;
+            Transform3D transform3DHallSouth = null;
+            transform3DHallSouth = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableHallSouth = new TriangleMeshObject("hallSouth", ActorType.CollidableGround,
+                transform3DHallSouth, this.texturedModelEffect, Color.White, 1, this.textureDictionary["oldwp"],
+                this.modelDictionary["hallSouth"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableHallSouth.Enable(true, 1);
+            this.objectManager.Add(collidableHallSouth);
+            #endregion
+            #region HallWest
+            CollidableObject collidableHallWest = null;
+            Transform3D transform3DHallWest = null;
+            transform3DHallWest = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableHallWest = new TriangleMeshObject("hallWest", ActorType.CollidableGround,
+                transform3DHallWest, this.texturedModelEffect, Color.White, 1, this.textureDictionary["oldwp"],
+                this.modelDictionary["hallWest"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableHallWest.Enable(true, 1);
+            this.objectManager.Add(collidableHallWest);
+            #endregion
+            #region HallNorth
+            CollidableObject collidableHallNorth = null;
+            Transform3D transform3DHallNorth = null;
+            transform3DHallNorth = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableHallNorth = new TriangleMeshObject("hallNorth", ActorType.CollidableGround,
+                transform3DHallNorth, this.texturedModelEffect, Color.White, 1, this.textureDictionary["oldwp"],
+                this.modelDictionary["hallNorth"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableHallNorth.Enable(true, 1);
+            this.objectManager.Add(collidableHallNorth);
+            #endregion
+            #endregion
+            #region level-den
+            #region DenFloor
+            CollidableObject collidableDenFloor = null;
+            Transform3D transform3DDenFloor = null;
+            transform3DDenFloor = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableDenFloor = new TriangleMeshObject("denFloor", ActorType.CollidableGround,
+                transform3DDenFloor, this.texturedModelEffect, Color.White, 1, this.textureDictionary["bathceiling"],
+                this.modelDictionary["denFloor"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableDenFloor.Enable(true, 1);
+            this.objectManager.Add(collidableDenFloor);
+            #endregion
+            #region DenCeiling
+            CollidableObject collidableDenCeiling = null;
+            Transform3D transform3DDenCeiling = null;
+            transform3DDenCeiling = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableDenCeiling = new TriangleMeshObject("denCeiling", ActorType.CollidableGround,
+                transform3DDenCeiling, this.texturedModelEffect, Color.White, 1, this.textureDictionary["bathceiling"],
+                this.modelDictionary["denCeiling"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableDenCeiling.Enable(true, 1);
+            this.objectManager.Add(collidableDenCeiling);
+            #endregion
+            #region DenEast
+            CollidableObject collidableDenEast = null;
+            Transform3D transform3DDenEast = null;
+            transform3DDenEast = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableDenEast = new TriangleMeshObject("denEast", ActorType.CollidableGround,
+                transform3DDenEast, this.texturedModelEffect, Color.White, 1, this.textureDictionary["oldwp"],
+                this.modelDictionary["denEast"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableDenEast.Enable(true, 1);
+            this.objectManager.Add(collidableDenEast);
+            #endregion
+            #region DenSouth
+            CollidableObject collidableDenSouth = null;
+            Transform3D transform3DDenSouth = null;
+            transform3DDenSouth = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableDenSouth = new TriangleMeshObject("denSouth", ActorType.CollidableGround,
+                transform3DDenSouth, this.texturedModelEffect, Color.White, 1, this.textureDictionary["oldwp"],
+                this.modelDictionary["denSouth"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableDenSouth.Enable(true, 1);
+            this.objectManager.Add(collidableDenSouth);
+            #endregion
+            #region DenWest
+            CollidableObject collidableDenWest = null;
+            Transform3D transform3DDenWest = null;
+            transform3DDenWest = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableDenWest = new TriangleMeshObject("denWest", ActorType.CollidableGround,
+                transform3DDenWest, this.texturedModelEffect, Color.White, 1, this.textureDictionary["oldwp"],
+                this.modelDictionary["denWest"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableDenWest.Enable(true, 1);
+            this.objectManager.Add(collidableDenWest);
+            #endregion
+            #region DenNorth
+            CollidableObject collidableDenNorth = null;
+            Transform3D transform3DDenNorth = null;
+            transform3DDenNorth = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableDenNorth = new TriangleMeshObject("denNorth", ActorType.CollidableGround,
+                transform3DDenNorth, this.texturedModelEffect, Color.White, 1, this.textureDictionary["oldwp"],
+                this.modelDictionary["denNorth"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableDenNorth.Enable(true, 1);
+            this.objectManager.Add(collidableDenNorth);
+            #endregion
+            #endregion
+            #region level-kitchen
+            #region KitchFloor
+            CollidableObject collidableKitchFloor = null;
+            Transform3D transform3DKitchFloor = null;
+            transform3DKitchFloor = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableKitchFloor = new TriangleMeshObject("kitchFloor", ActorType.CollidableGround,
+                transform3DKitchFloor, this.texturedModelEffect, Color.White, 1, this.textureDictionary["lino"],
+                this.modelDictionary["kitchFloor"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableKitchFloor.Enable(true, 1);
+            this.objectManager.Add(collidableKitchFloor);
+            #endregion
+            #region KitchCeiling
+            CollidableObject collidableKitchCeiling = null;
+            Transform3D transform3DKitchCeiling = null;
+            transform3DKitchCeiling = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableKitchCeiling = new TriangleMeshObject("kitchCeiling", ActorType.CollidableGround,
+                transform3DKitchCeiling, this.texturedModelEffect, Color.White, 1, this.textureDictionary["bathceiling"],
+                this.modelDictionary["kitchCeiling"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableKitchCeiling.Enable(true, 1);
+            this.objectManager.Add(collidableKitchCeiling);
+            #endregion
+            #region KitchEast
+            CollidableObject collidableKitchEast = null;
+            Transform3D transform3DKitchEast = null;
+            transform3DKitchEast = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableKitchEast = new TriangleMeshObject("kitchEast", ActorType.CollidableGround,
+                transform3DKitchEast, this.texturedModelEffect, Color.White, 1, this.textureDictionary["oldwp"],
+                this.modelDictionary["kitchEast"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableKitchEast.Enable(true, 1);
+            this.objectManager.Add(collidableKitchEast);
+            #endregion
+            #region KitchSouth
+            CollidableObject collidableKitchSouth = null;
+            Transform3D transform3DKitchSouth = null;
+            transform3DKitchSouth = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableKitchSouth = new TriangleMeshObject("kitchSouth", ActorType.CollidableGround,
+                transform3DKitchSouth, this.texturedModelEffect, Color.White, 1, this.textureDictionary["oldwp"],
+                this.modelDictionary["kitchSouth"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableKitchSouth.Enable(true, 1);
+            this.objectManager.Add(collidableKitchSouth);
+            #endregion
+            #region KitchWest
+            CollidableObject collidableKitchWest = null;
+            Transform3D transform3DKitchWest = null;
+            transform3DKitchWest = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableKitchWest = new TriangleMeshObject("kitchWest", ActorType.CollidableGround,
+                transform3DKitchWest, this.texturedModelEffect, Color.White, 1, this.textureDictionary["oldwp"],
+                this.modelDictionary["kitchWest"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableKitchWest.Enable(true, 1);
+            this.objectManager.Add(collidableKitchWest);
+            #endregion
+            #region KitchNorth
+            CollidableObject collidableKitchNorth = null;
+            Transform3D transform3DKitchNorth = null;
+            transform3DKitchNorth = new Transform3D(new Vector3(0, 0, 0), new Vector3(0, 0, 0),
+                Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableKitchNorth = new TriangleMeshObject("kitchNorth", ActorType.CollidableGround,
+                transform3DKitchNorth, this.texturedModelEffect, Color.White, 1, this.textureDictionary["oldwp"],
+                this.modelDictionary["kitchNorth"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableKitchNorth.Enable(true, 1);
+            this.objectManager.Add(collidableKitchNorth);
+            #endregion
+            #endregion
+            #endregion
+            /*
+            #region Sitting room
             #region Sofa
             CollidableObject collidableSofa = null;
             Transform3D transform3DSofa = null;

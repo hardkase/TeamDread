@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>bathSouth</Name>
     <Identity>
-      <SourceFilename>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\bathSouth.FBX</SourceFilename>
+      <SourceFilename>E:\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\bathSouth.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>
@@ -14,18 +14,18 @@
       <Data Key="mr displacement edge length" Type="float">2</Data>
       <Data Key="mr displacement max displace" Type="float">20</Data>
       <Data Key="mr displacement parametric subdivision level" Type="int">5</Data>
-      <Data Key="MaxHandle" Type="int">4</Data>
+      <Data Key="MaxHandle" Type="int">33</Data>
     </OpaqueData>
-    <Transform>-1.11026928E-07 -1.55530138E-16 2.54 0 2.54 -6.798439E-24 1.11026928E-07 0 0 2.54 1.55530138E-16 0 -249.999985 7.6072144E-38 -925.985962 1</Transform>
-    <Positions>-78.74016 -3.937008 0 78.74016 -3.937008 0 -78.74016 3.937008 0 78.74016 3.937008 0 -78.74016 -3.937008 137.795273 78.74016 -3.937008 137.795273 -78.74016 3.937008 137.795273 78.74016 3.937008 137.795273</Positions>
+    <Transform>2.54 0 0 0 0 1.55530138E-16 -2.54 0 0 2.54 1.55530138E-16 0 304.438782 0 201.946487 1</Transform>
+    <Positions>-59.05512 -1.57480311 0 59.05512 -1.57480311 0 -59.05512 1.57480311 0 59.05512 1.57480311 0 -59.05512 -1.57480311 94.48819 59.05512 -1.57480311 94.48819 -59.05512 1.57480311 94.48819 59.05512 1.57480311 94.48819</Positions>
     <Geometry>
       <Batch>
         <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22</Indices>
         <Vertices>
           <PositionIndices>0 2 3 1 4 5 7 6 0 1 5 4 1 3 7 5 3 2 6 7 2 0 4 6</PositionIndices>
           <Channels>
-            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 -0.99999994 0 0 -1 0 0 -0.99999994 0 0 -1 0 0 0.99999994 0 0 1 0 0 0.99999994 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</VertexChannel>
-            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">1 0.999995232 1 0 0 4.76837158E-06 0 1 0 0.999995232 1 1 1 4.76837158E-06 0 0 0 1 1 1 1 0 0 0 0 1 0.999995232 1 0.999995232 0 0 0 0 1 1 1 1 0 0 0 0 1 0.999995232 1 0.999995232 0 0 0</VertexChannel>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">1 0.999991059 1 0 0 8.940697E-06 0 1 0 0.999991059 1 1 1 8.940697E-06 0 0 0 1 1 1 1 0 0 0 0 1 0.999991059 1 0.999991059 0 0 0 0 1 1 1 1 0 0 0 0 1 0.999991059 1 0.999991059 0 0 0</VertexChannel>
           </Channels>
         </Vertices>
       </Batch>

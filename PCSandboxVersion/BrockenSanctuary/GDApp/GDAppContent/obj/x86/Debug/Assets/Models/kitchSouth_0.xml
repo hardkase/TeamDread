@@ -1,34 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
-  <Asset Type="Graphics:MeshContent">
-    <Name>kitchSouth</Name>
+  <Asset Type="Graphics:NodeContent">
+    <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>F:\Skool\UDP\CODE\TeamDread\PCSandboxVersion\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\kitchSouth.FBX</SourceFilename>
+      <SourceFilename>E:\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\kitchSouth.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
-    <OpaqueData>
-      <Data Key="mr displacement use global settings" Type="bool">true</Data>
-      <Data Key="mr displacement view dependent" Type="bool">true</Data>
-      <Data Key="mr displacement method" Type="int">6</Data>
-      <Data Key="mr displacement smoothing on" Type="bool">true</Data>
-      <Data Key="mr displacement edge length" Type="float">2</Data>
-      <Data Key="mr displacement max displace" Type="float">20</Data>
-      <Data Key="mr displacement parametric subdivision level" Type="int">5</Data>
-      <Data Key="MaxHandle" Type="int">24</Data>
-    </OpaqueData>
-    <Transform>2.54 0 0 0 0 1.83090949E-16 -2.990102 0 0 2.54 1.55530138E-16 0 19.66659 0 -246.702148 1</Transform>
-    <Positions>-3.937008 -157.480316 0 -3.937008 157.480316 0 3.937008 157.480316 0 3.937008 -157.480316 0 -3.937008 -157.480316 137.795273 3.937008 -157.480316 137.795273 3.937008 157.480316 137.795273 -3.937008 157.480316 137.795273 -3.937008 135.674835 8.661417 3.937008 135.674835 8.661417 -3.937008 105.674843 8.661417 3.937008 105.674843 8.661417 -3.937008 105.674843 86.65354 3.937008 105.674843 86.65354 -3.937008 135.674835 86.65354 3.937008 135.674835 86.65354</Positions>
-    <Geometry>
-      <Batch>
-        <Indices>2 1 0 5 4 3 8 7 6 11 10 9 14 13 12 17 16 15 20 19 18 23 22 21 26 25 24 29 28 27 30 0 1 31 3 4 32 6 7 34 10 33 33 10 11 34 33 35 33 36 35 35 36 37 36 9 37 37 9 10 38 12 13 40 39 16 39 41 16 40 42 39 39 42 43 42 17 43 43 17 15 41 15 16 44 18 19 45 21 22 46 24 25 47 27 28</Indices>
-        <Vertices>
-          <PositionIndices>1 3 0 4 6 7 0 5 4 13 3 11 2 7 6 12 0 4 15 8 9 15 12 14 12 11 10 11 8 10 2 5 3 9 2 6 15 5 1 8 1 10 7 14 14 13 13 9</PositionIndices>
-          <Channels>
-            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 0 -0.99999994 0 0 -0.99999994 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0.99999994 0 0 0.99999994 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 1 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 0 -1 0 1 0 0 0 1</VertexChannel>
-            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.999990463 0 9.536743E-06 1 1 1 2.98023224E-08 1 1 0 9.56654549E-06 0 2.98023224E-08 1 0.999990463 0 2.98023224E-08 0 0.8355176 0.371142864 2.98023224E-08 1 0.8355176 0.937142849 0 1 0.999990463 0 0 0 0.164482415 0.371142864 1 1 1 0 0.9999993 0.371142864 8.910894E-06 0.937142849 0.9999993 0.937142849 7.15255737E-07 0.0692324638 0.999992 0.164482415 0.999991059 0.0692324638 0.999992 0.371142864 1.60932541E-06 0.937142849 0.999992 0.937142849 0.9999984 0.164482415 8.910894E-06 0.0692324638 7.987022E-06 0.164482415 0 0 0.999990463 1 0.999990463 1 0.930767536 0.937142849 1 1 1 0 0.930767536 0.371142864 2.98023224E-08 0 0.999990463 1 0.0692324638 0.937142849 0 1 0.164482415 0.937142849 0 0 0.0692324638 0.371142864 8.910894E-06 0.371142864 1.60932541E-06 0.164482415 1.60932541E-06 0.371142864 0.9999993 0.0692324638</VertexChannel>
-          </Channels>
-        </Vertices>
-      </Batch>
-    </Geometry>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Children>
+      <Child Type="Graphics:MeshContent">
+        <Name>kitchSouth</Name>
+        <OpaqueData>
+          <Data Key="mr displacement use global settings" Type="bool">true</Data>
+          <Data Key="mr displacement view dependent" Type="bool">true</Data>
+          <Data Key="mr displacement method" Type="int">6</Data>
+          <Data Key="mr displacement smoothing on" Type="bool">true</Data>
+          <Data Key="mr displacement edge length" Type="float">2</Data>
+          <Data Key="mr displacement max displace" Type="float">20</Data>
+          <Data Key="mr displacement parametric subdivision level" Type="int">5</Data>
+          <Data Key="MaxHandle" Type="int">25</Data>
+        </OpaqueData>
+        <Transform>2.54 0 0 0 0 1.55530138E-16 -2.54 0 0 2.54 1.55530138E-16 0 -299.682251 0 395.27063 1</Transform>
+        <Positions>-157.480316 -1.57480311 0 -157.480316 1.57480311 0 157.480316 1.57480311 0 157.480316 -1.57480311 0 -157.480316 -1.57480311 94.48819 157.480316 -1.57480311 94.48819 157.480316 1.57480311 94.48819 -157.480316 1.57480311 94.48819 103.110237 -1.57480311 3.14960623 103.110237 1.57480311 3.14960623 133.110229 -1.57480311 3.14960623 133.110229 1.57480311 3.14960623 133.110229 -1.57480311 81.14173 133.110229 1.57480311 81.14173 103.110237 -1.57480311 81.14173 103.110237 1.57480311 81.14173</Positions>
+        <Geometry>
+          <Batch>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22 26 25 24 24 27 26 30 29 28 28 31 30 34 33 32 34 32 35 34 35 36 37 34 36 38 37 36 39 32 33 39 33 38 39 38 36 42 41 40 42 40 43 44 42 43 45 44 43 46 40 41 46 41 45 47 46 45 47 45 43</Indices>
+            <Vertices>
+              <PositionIndices>0 1 2 3 4 5 6 7 3 2 6 5 1 0 4 7 15 14 8 9 13 12 14 15 12 13 11 10 10 11 9 8 14 4 0 8 10 3 5 12 7 13 15 1 9 11 6 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0.99999994 0 0 1 0 0 0.99999994 0 0 1 0 0 -0.99999994 0 0 -1 0 0 -0.99999994 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -0.99999994 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.99999994 0 0 -1 0 0 0.99999994 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">1 0.999976158 1 0 0 2.38418579E-05 0 1 0 0.999976158 1 1 1 2.38418579E-05 0 0 2.98023224E-08 1 0.999976158 1 0.999976158 0 2.98023224E-08 0 0 1 0.999976158 1 0.999976158 0 0 0 0.9999802 0.141250014 4.142523E-06 0.141250014 4.142523E-06 0.966666639 0.9999802 0.966666639 0.0773750544 2.20537186E-05 0.0773750544 0.9999981 0.172625 0.9999958 0.172625 1.97887421E-05 0.9999981 0.141250014 2.20537186E-05 0.141250014 2.20537186E-05 0.966666639 0.9999981 0.966666639 0.922624946 0.9999981 0.922624946 2.20537186E-05 0.827375 1.97887421E-05 0.827375 0.9999958 0.827375 0.141250014 0 0 0 1 0.827375 0.966666639 0.922624946 0.966666639 1 1 1 0 0.922624946 0.141250014 1 0 0.0773750544 0.141250014 0.172625 0.141250014 1 1 0.172625 0.966666639 0.0773750544 0.966666639 0 0 0 1</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>Box002</Name>
+        <OpaqueData>
+          <Data Key="mr displacement use global settings" Type="bool">true</Data>
+          <Data Key="mr displacement view dependent" Type="bool">true</Data>
+          <Data Key="mr displacement method" Type="int">6</Data>
+          <Data Key="mr displacement smoothing on" Type="bool">true</Data>
+          <Data Key="mr displacement edge length" Type="float">2</Data>
+          <Data Key="mr displacement max displace" Type="float">20</Data>
+          <Data Key="mr displacement parametric subdivision level" Type="int">5</Data>
+          <Data Key="MaxHandle" Type="int">34</Data>
+        </OpaqueData>
+        <Transform>2.54 0 0 0 0 1.55530138E-16 -2.54 0 0 2.54 1.55530138E-16 0 304.438782 0 451.946442 1</Transform>
+        <Positions>-0.0814800262 -1.78565979 0 0.0814800262 -1.78565979 0 -0.0814800262 1.78565979 0 0.0814800262 1.78565979 0 -0.0814800262 -1.78565979 -17.8331375 0.0814800262 -1.78565979 -17.8331375 -0.0814800262 1.78565979 -17.8331375 0.0814800262 1.78565979 -17.8331375</Positions>
+        <Geometry>
+          <Batch>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2 4 6 7 5 0 4 5 1 1 5 7 3 3 7 6 2 2 6 4 0</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">1 1 0 1 0 0 1 0 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+    </Children>
   </Asset>
 </XnaContent>
